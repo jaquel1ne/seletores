@@ -1,0 +1,35 @@
+div {
+    display: inline-block;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+}
+
+.quadro {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 0;
+}
+
+.quadro div {
+    background-color: red;
+    border-color: white;
+}
+
+#quadro-vermelho {
+   border: 1px solid black;
+}
+
+
+#quadro-azul {
+    background-color: #00b0f0;
+}
+
+#quadro-verde {
+    background-color: #00b050;
+}   
+
+#quadro-amarelo {
+    background-color: #ffff00;
+}
